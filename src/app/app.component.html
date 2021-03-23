@@ -1,0 +1,26 @@
+
+<header>
+
+  <ul>
+    <li> <a [routerLink]="['/aboutme']" [routerLinkActive]="['actived']"> Sobre mi </a> </li>
+    <li> <a [routerLink]="['/projects']" [routerLinkActive]="['actived']" > Proyectos </a> </li>
+    <li id="logo"><a href="#">AS</a></li>
+    <li> <a [routerLink]="['/create-project']" [routerLinkActive]="['actived']" > Crear proyecto </a> </li>
+    <li> <a [routerLink]="['/contact']" [routerLinkActive]="['actived']" > contacto </a> </li>
+  </ul>
+
+</header>
+
+
+
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+
+<footer>
+Pagina de Alejandro Suarez Sarabia &copy;
+</footer>
+
+
